@@ -39,3 +39,4 @@ int main() {
     inorder(root);
     postorder(root);
 }
+
