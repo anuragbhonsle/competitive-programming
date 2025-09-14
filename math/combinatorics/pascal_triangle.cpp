@@ -13,7 +13,8 @@ void printPascal(int n) {
 }
 
 int main() {
-    int n = 5;
+    int n;
+    cin >> n;
     cout << "Pascal's Triangle with " << n << " rows:\n";
     printPascal(n);
     return 0;
