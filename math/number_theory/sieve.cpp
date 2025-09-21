@@ -19,7 +19,8 @@ vector<int> sieve(int n) {
 }
 
 int main() {
-    int n = 50;
+    int n;
+    cin >> n;
     vector<int> primes = sieve(n);
 
     cout << "Primes up to " << n << ": ";
