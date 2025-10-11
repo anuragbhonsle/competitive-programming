@@ -30,3 +30,11 @@ int main() {
     cout << "\n";
     return 0;
 }
+
+// Also The T-prime solution is literally just a Sieve of Eratosthenes + is perfect square check.
+// A T-prime is a number that has exactly 3 divisors (1, p, p²).
+// So for each number x in the array:
+//   1. Check if x is a perfect square → sqrt(x) * sqrt(x) == x.
+//   2. Then check if sqrt(x) itself is prime.
+// That’s it. That’s the entire trick.
+
